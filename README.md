@@ -1,2 +1,2 @@
 # expetek.github.io
-Expetek Corp. Webiste
+Expetek Corp. - Expert for Production Excellence
