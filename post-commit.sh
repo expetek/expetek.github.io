@@ -3,7 +3,7 @@
 currentBranch=$(git symbolic-ref --short HEAD);
 branchToPushSiteTo="gh-pages";
 
-if [ "source" == "$currentBranch" ]; then
+if [ "source" == "master" ]; then
 # Build the site
 jekyll build;
 echo "Built site with Jekyll"

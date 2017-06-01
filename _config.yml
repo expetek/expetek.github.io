@@ -28,7 +28,7 @@ defaults:
       type: "post"
     values:
       layout: "post"
-      author: "Stanley Stinson"
+      author: "Long Han"
       date: ""
       title: ""
       category: ""
