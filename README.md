@@ -1,7 +1,7 @@
 Stanley-Jekyll
 ----
 
-This is my try at a Jekyll port of the free bootstrap theme Stanley, that [BlackTie.co](http://www.blacktie.co/) created. 
+This is my try at a Jekyll port of the free bootstrap theme Stanley, that [BlackTie.co](http://www.blacktie.co/) created.
 
 License
 ----
@@ -18,7 +18,7 @@ Dribbble shots used in this theme are from the awesome designer [David Creighton
 Usage
 ----
 
-Update the base-url in `_config.yml` to either `""` if it's your personal github io page, or to `"/project-name"` if it is a project of yours. In  `post-commit.sh`, change the branches as appropriate. Also update the branch name in the if-clause, depending on from which branch you want to publish things. 
+Update the base-url in `_config.yml` to either `""` if it's your personal github io page, or to `"/project-name"` if it is a project of yours. In  `post-commit.sh`, change the branches as appropriate. Also update the branch name in the if-clause, depending on from which branch you want to publish things.
 
 To set up the git hook, run: `ln -s ../../post-commit.sh .git/hooks/post-commit`.
 You might need to update permissions for the hook to run, in that case do `chmod +x .git/hooks/post-commit`.
@@ -32,7 +32,7 @@ This solution uses a temporary branch `tmp`, so if you already have a branch tha
 Old Usage Instructions
 ----
 
-It is currently not a seamless experience to use this theme with GitHub Pages, despite the 'v1.0'-tag. GitHub Pages uses Jekyll version 1.5.1, whereas this project was developed for version 2.0.3 and newer. It is possible to host your site anyways, but it's a bit tedious effort required. 
+It is currently not a seamless experience to use this theme with GitHub Pages, despite the 'v1.0'-tag. GitHub Pages uses Jekyll version 1.5.1, whereas this project was developed for version 2.0.3 and newer. It is possible to host your site anyways, but it's a bit tedious effort required.
 
 1. Build the project locally with `jekyll build`
 2. Delete all files from your master branch in *username.github.io*
@@ -41,4 +41,3 @@ It is currently not a seamless experience to use this theme with GitHub Pages, d
 
 
 I might look at a simpler solution further ahead (or use some kind of script for the deployment).
-
