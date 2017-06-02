@@ -28,25 +28,5 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
         <guid isPermaLink="true">http://localhost:4000/jekyll/update/2014/01/03/welcome-to-jekyll.html</guid>
       </item>
     
-      <item>
-        <title>An Image Post</title>
-        <description>&lt;!-- +++++ Post +++++ --&gt;
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;
-&lt;p&gt;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
-&lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
-        <pubDate>Fri, 03 Jan 2014 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/2014/01/03/an-image-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/01/03/an-image-post.html</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Drupal!</title>
-        <description>&lt;p&gt;This is a text about Drupal, isn’t it cool?&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Mar 2012 19:36:29 +0700</pubDate>
-        <link>http://localhost:4000/drupal/2012/03/21/drupal.html</link>
-        <guid isPermaLink="true">http://localhost:4000/drupal/2012/03/21/drupal.html</guid>
-      </item>
-    
   </channel>
 </rss>
