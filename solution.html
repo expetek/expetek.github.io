@@ -14,7 +14,7 @@ layout: default
 		</div>
 	</div>
 
-	{% for product in site.product %}
+	{% for product in site.products %}
 		{% if product.published == true  %}
 			{% cycle 'add rows': '<div class="row mt centered">', nil, nil %}
 
