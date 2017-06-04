@@ -18,7 +18,11 @@
 
 			<div class="col-sm-4">
 				<h4>Our Blog</h4>
-
+				{% for post in site.posts %}
+					<p><a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration : none;">{{ post.title }}</a><br/>
+					{{ post.date | date: "%B %-d, %Y" }}
+					</p>
+				{% endfor %}
 			</div><!-- /col-lg-4 -->
 
 			<div class="col-sm-4">
