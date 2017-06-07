@@ -8,24 +8,26 @@ layout: default
 
 	<div class="row mt">
 		<div class="col-lg-6 col-lg-offset-3 centered">
-			<h3>MY WORK</h3>
+			<h3>INDUSTRY SOLUTION</h3>
 			<hr>
-			<p>Show your work here. Dribbble shots from the awesome designer <a href="http://dribbble.com/wanderingbert">David Creighton-Pester</a>.</p>
+			<p>We are working to show you interesting solutions here. Reach us through email at inquiry@expetek.com if you would like to know now.</p>
 		</div>
 	</div>
 
-	{% for product in site.products %}
-		{% if product.published == true  %}
-			{% cycle 'add rows': '<div class="row mt centered">', nil, nil %}
-
-				<div class="col-lg-4">
-					<a class="zoom green" href="{{ work.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ work.img }}" alt="" /></a>
-					<p>{{ work.title }}</p>
-				</div>
-
-			{% cycle 'close rows': nil, nil, '</div>' %}
-		{% endif %}
+	<div class="row mt">
+	{% for solution in site.solutions %}
+	<div class="row mt">
+		<div class="col-lg-8 col-lg-offset-2">
+			<h4><a href="{{ solution.url | prepend: site.baseurl }}" style="text-decoration : none; color : #000;">{{ solution.title }}</a></h4>
+			<p><bd>{{ solution.author }} - {{ solution.date | date: "%B %-d, %Y" }}</bd></p>
+			<p></p>
+								<p>{% if solution.img %}<img src="{{ solution.img }}">{% endif %}</p>
+			<p>{% if solution.excerpt %} {{ solution.excerpt }}
+									 {% else %}  {{ solution.description}}  {% endif %}</p>
+			<p><a href="{{ solution.url | prepend: site.baseurl }}">Continue Reading...</a></p>
+		</div>
+	</div><!-- /row -->
 	{% endfor %}
-	{% cycle 'close rows': nil, '</div>', '</div>' %}
+	</div>
 
 </div><!-- /container -->
