@@ -9,15 +9,15 @@ layout: default
 	<!-- +++++ Product intro Section +++++ -->
 	<div class="row mt">
 		<div class="col-lg-6 col-lg-offset-3 centered">
-			<h3>OUR PRODUCT RANGES</h3>
+			<h3>TOOLING SYSTEM</h3>
 			<hr>
 			<p>We are working to show you interesting product ranges here. Reach us through email at inquiry@expetek.com if you would like to know now.</p>
 		</div>
 	</div>
 
 	<div class="row mt">
+		<!-- +++++ Cutting tools Product Tree row +++++ -->
 		<div class="col-sm-4 col-md-3">
-			<!-- +++++ Cutting tools tree +++++ -->
 			<h4><a href="/cutting-tools">Cutting Tools</a></h4>
 			<ul class="nav flex-column">
 			  <li class="nav-item">
@@ -30,15 +30,15 @@ layout: default
 			    <a class="nav-link" href="/hole-making">Hole Making</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="tooling-system">Tooling System</a>
+			    <a class="nav-link active" href="tooling-system">Tooling System</a>
 			  </li>
 			</ul>
 		</div>
 
-		<!-- Product List row -->
+		<!-- Milling List row -->
 		<div class="col-sm-8 col-md-9">
 			{% for product in site.products %}
-				{% if product.published == true %}
+				{% if product.published == true and product.range == 'tooling-system' %}
 					{% cycle 'add rows': '<div class="row mt centered">', nil, nil %}
 
 						<div class="col-sm-12 col-md-4">

@@ -81,6 +81,10 @@ a:after {
     padding: 0;
 }
 
+.nav .active {
+  background-color: #EF6C00;
+  color: #f2f2f2
+}
 
 .navbar {
 	margin-bottom: 0px;

@@ -18,10 +18,12 @@
 
 			<div class="col-sm-4">
 				<h4>Our Blog</h4>
-				{% for post in site.posts %}
+				{% assign counter = '0' %}
+				{% for post in site.posts and counter <= 3 %}
 					<p><a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration : none;">{{ post.title }}</a><br/>
 					{{ post.date | date: "%B %-d, %Y" }}
 					</p>
+					{% assign counter = counter | plus: '1' %}
 				{% endfor %}
 			</div><!-- /col-lg-4 -->
 
@@ -32,15 +34,22 @@
 
 		</div>
 		<div class="row centered">
-			<div class="col-md-2 col-md-offset-3 centered">
-				<a href="#">    Instagram    </a>
-			</div>
-			<div class="col-md-2 col-md-offset-3 centered">
-				<a href="#">    Twitter    </a>
-			</div>
-			<div class="col-md-2 col-md-offset-3 centered">
-				<a href="#">    Facebook    </a>
-			</div>
+			<div class="col-sm-3">
+    	</div>
+    	<div class="col-sm-2">
+      	<p><a href="#">Twitter</a></p>
+    	</div>
+    	<div class="col-sm-2">
+				<p><a href="#">Facebook</a></p>
+
+    	</div>
+    	<div class="col-sm-2">
+				<p><a href="#">Instagram</a></p>
+    	</div>
+			<div class="col-sm-3">
+    	</div>
+  	</div>
+		<div class="row centered">
 			<p>ⓒ 2017 by <a href="/">Expetek</a> Co., Ltd.</p>
 		</div>
 	</div>
