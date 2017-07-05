@@ -17,16 +17,16 @@ layout: default
 <!-- +++++ Featured Product Ranges Section +++++ -->
 
 <div class="container pt">
-	<div class="row mt">
+	<div class="row">
 		<h2>Featured Products</h2>
 	</div>
-	<div class="row mt centered">
+	<div class="row centered">
 		{% for product in site.products %}
 			{% if product.published == true and product.featured %}
 				{% cycle 'add rows': '<div class="row mt centered">', nil, nil %}
 
 					<div class="col-sm-6 col-md-4">
-						<a class="zoom green" href="{{ product.url | prepend: site.baseurl }}"><img class="img responsive" src="{{ product.img }}" alt="" /></a>
+						<a class="zoom green" href="{{ product.url | prepend: site.baseurl }}"><img class="img responsive" src="{{ product.img }}" alt="" style="height:300px"/></a>
 						<h4>{{ product.title }}</h4>
 						<p>{{ product.short }}</p>
 					</div>

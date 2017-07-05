@@ -21,7 +21,7 @@ layout: default
 			<h4><a href="{{ solution.url | prepend: site.baseurl }}" style="text-decoration : none; color : #000;">{{ solution.title }}</a></h4>
 			<p><bd>{{ solution.author }} - {{ solution.date | date: "%B %-d, %Y" }}</bd></p>
 			<p></p>
-								<p>{% if solution.img %}<img src="{{ solution.img }}">{% endif %}</p>
+								<p>{% if solution.img %}<img src="{{ solution.img }} ">{% endif %}</p>
 			<p>{% if solution.excerpt %} {{ solution.excerpt }}
 									 {% else %}  {{ solution.description}}  {% endif %}</p>
 			<p><a href="{{ solution.url | prepend: site.baseurl }}">Continue Reading...</a></p>

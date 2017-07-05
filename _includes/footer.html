@@ -4,12 +4,12 @@
 			<div class="col-sm-4">
 				<h4>Our Office</h4>
 				<p>
-					Floor #2, Lot 32, Le Parc by Gamuda<br/>
+					Floor #2, Lot 32, Commercial Le Parc<br/>
 					Yen So Park, Yen So, Hoang Mai<br/>
 					Hanoi, Vietnam, 100000<br/>
 
-					Tel: +84 90 4525321<br/>
-					Fax: +84 90 4525321<br/>
+					Tel: +84 24 56609624<br/>
+					Hotline: +84 90 4525321<br/>
 					Email: inquiry@expetek.com<br/>
 				</br/>
 				</br/>
@@ -18,12 +18,10 @@
 
 			<div class="col-sm-4">
 				<h4>Our Blog</h4>
-				{% assign counter = '0' %}
-				{% for post in site.posts and counter <= 3 %}
+				{% for post in site.posts limit:3 %}
 					<p><a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration : none;">{{ post.title }}</a><br/>
-					{{ post.date | date: "%B %-d, %Y" }}
+						{{ post.date | date: "%B %-d, %Y" }}
 					</p>
-					{% assign counter = counter | plus: '1' %}
 				{% endfor %}
 			</div><!-- /col-lg-4 -->
 
@@ -50,7 +48,7 @@
     	</div>
   	</div>
 		<div class="row centered">
-			<p>ⓒ 2017 by <a href="/">Expetek</a> Co., Ltd.</p>
+			<p>ⓒ 2017 by <a href="/">EXPETEK</a> CO., LTD.</p>
 		</div>
 	</div>
 </div>

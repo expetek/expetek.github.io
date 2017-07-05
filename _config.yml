@@ -23,6 +23,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://expetek.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: expetekvn
 github_username:  expetek
+facebook_username:  expetek
+
 
 collections:
   products:

@@ -5,18 +5,34 @@ layout: my-site
 <!-- +++++ Product Section +++++ -->
 
 <div class="container pt">
-	<div class="row mt">
-		<div class="col-lg-6 col-lg-offset-3 centered">
+	<div class="row">
+		<!-- +++++ Cutting tools Product Tree row +++++ -->
+		<div class="col-sm-4 col-md-3">
+			<h4><a href="/cutting-tools">Cutting Tools</a></h4>
+			<ul class="nav flex-column">
+			  <li class="nav-item">
+			    <a class="nav-link" href="/milling">Milling</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="/turning">Turning</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="/hole-making">Hole Making</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="tooling-system">Tooling System</a>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="col-sm-8 col-md-9">
 			<h3>{{ page.title }}</h3>
 			<hr>
+			<img class="img-responsive"src="{{ page.img }}" alt={{page.title}} style="width:70%;margin:0 auto;align:right"/></>
 			<p>{{ page.description }}</p>
 		</div>
 	</div>
 	<div class="row mt centered">
         <p>{{ content }}</p>
 	</div><!-- /row -->
-	<div class="row mt centered">
-		<p><bt>Client: <a href="#">{{ page.supplier }}</a></bt> - <bt>Type: <a href="#">{{ page.categories }}</a></bt> - <bt>Date: <a href="#">{{ page.date | date: "%B %-d, %Y" }}</a></bt></p>
-	</div>
-
 </div><!-- /container -->

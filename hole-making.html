@@ -7,13 +7,13 @@ layout: default
 <div class="container pt">
 
 	<!-- +++++ Product intro Section +++++ -->
-	<div class="row mt">
-		<div class="col-lg-6 col-lg-offset-3 centered">
-			<h3>HOLE MAKING</h3>
-			<hr>
-			<p>We are working to show you interesting product ranges here. Reach us through email at inquiry@expetek.com if you would like to know now.</p>
-		</div>
-	</div>
+	<div class="container" style="background:url('/assets/img/products/holemaking.jpg'); height:300px">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 centered">
+				<h1>HOLE MAKING</h1>
+			</div><!-- /col-lg-8 -->
+		</div><!-- /row -->
+	</div> <!-- /container -->
 
 	<div class="row mt">
 		<!-- +++++ Cutting tools Product Tree row +++++ -->
@@ -38,11 +38,11 @@ layout: default
 		<!-- Milling List row -->
 		<div class="col-sm-8 col-md-9">
 			{% for product in site.products %}
-				{% if product.published == true and product.range == 'hole-making' %}
+				{% if product.published == true and product.range == 'Holemaking' %}
 					{% cycle 'add rows': '<div class="row mt centered">', nil, nil %}
 
 						<div class="col-sm-12 col-md-4">
-							<a class="zoom green" href="{{ product.url | prepend: site.baseurl }}"><img class="img responsive" src="{{ product.img }}" alt="" /></a>
+							<a class="zoom green" href="{{ product.url | prepend: site.baseurl }}"><img class="img responsive" src="{{ product.img }}" alt="" style="height:300px"/></a>
 							<h4>{{ product.title }}</h4>
 							<p>{{ product.short }}</p>
 						</div>

@@ -42,7 +42,7 @@ layout: default
 					{% cycle 'add rows': '<div class="row mt centered">', nil, nil %}
 
 						<div class="col-sm-12 col-md-4">
-							<a class="zoom green" href="{{ product.url | prepend: site.baseurl }}"><img class="img responsive" src="{{ product.img }}" alt="" /></a>
+							<a class="zoom green" href="{{ product.url | prepend: site.baseurl }}"><img class="img responsive" src="{{ product.img }}" alt="" style="height:300px"/></a>
 							<h4>{{ product.title }}</h4>
 							<p>{{ product.short }}</p>
 						</div>
