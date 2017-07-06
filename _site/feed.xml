@@ -69,87 +69,31 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll 2!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>Hope or Hype?</title>
+        <description>&lt;p&gt;Everyone's talking about 3D printing, or 'additive manufacturing' as some prefer to call it. But when will the technology actually break through into the main strea, and what are the implications? Seco's head of Research and Development, Anders Ericsson, takes a closer look.
+&lt;/p&gt;
+&lt;p&gt;When a little over a year ago, Audi showed off a half-scale model of its classic Grand Prix car, the 1936 Auto Union Type C, it wasn’t the car itself that attracted the greatest interest. Rather, it was the ‘printer’. The car was one of the first to be created through additive manufacturing or what’s sometimes called 3D-printing technology. At the same time, Audi signaled that it was now investigating new opportunities for printing out complex components directly from “powder to metal”.
+&lt;/p&gt;
+&lt;p&gt;The Audi example is just one of many of the increasing number of uses for additive manufacturing (AM). Advocates highlight the fact that the technology allows for the metal industry to go from production-driven design to design-driven production, that lead-times will be cut for the development of new products, and that there is now new potential for producing components featuring complex geometries. Some even call the technology a “paradigm shift within manufacturing”. But Anders Ericsson, Head of Research and Development at Seco, is keen to slightly downplay the technology’s immediate significance for the metal working industry.
+&lt;/p&gt;
+&lt;p&gt;“AM is clearly an extremely interesting technology for many of our customers,” he says. “In some cases, it can replace roughing, but we don’t think that the technology will replace the bulk of finishing operations any time within the next 15 years.”
+&lt;/p&gt;
+&lt;p&gt;If you go back 20 years, many thought net shape forming was going to be the new production technology that to some degree would replace traditional metal cutting. The method involves creating components that are very close to their final form. But while net shape forming is today widely used across the industry, it hasn’t become the revolution that many expected.
+&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://usercontent.azureedge.net/Content/UserContent/Images/018943-3qo154r0uvo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;“You can draw a parallel with this and with additive manufacturing, today,” says Ericsson. “Everyone is talking about the technology, but we don’t really know where it will lead. But, having said that, I still believe that additive manufacturing has greater potential for metals than net shape forming, primarily because AM is currently being successfully used with complex plastic components and because digitalization will work as a key enabler.”
+&lt;/p&gt;
+&lt;p&gt;Up until now, it has been the medical sector and, to some extent, the aviation sector that have made progress with additive manufacturing within areas traditionally dependent on the metalworking industry. The method has also been effective in the medical sector in producing small runs of complex, tailor-made components such as prostheses and implants.
+&lt;/p&gt;
+&lt;p&gt;Source:&lt;a href=&quot;https://www.secotools.com/#article/67488&quot;&gt; SecoTools&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 03 Jan 2017 07:36:29 +0700</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts.html</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll 3!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 03 Jan 2017 07:36:29 +0700</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts3.html</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll 4!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 03 Jan 2017 07:36:29 +0700</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts4.html</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 03 Jan 2014 07:36:29 +0700</pubDate>
-        <link>http://localhost:4000/jekyll/update/2014/01/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2014/01/03/welcome-to-jekyll.html</guid>
+        <pubDate>Sat, 01 Jul 2017 07:36:29 +0700</pubDate>
+        <link>http://localhost:4000/technology/2017/07/01/Hope-or-Hype.html</link>
+        <guid isPermaLink="true">http://localhost:4000/technology/2017/07/01/Hope-or-Hype.html</guid>
       </item>
     
   </channel>
@@ -180,38 +124,26 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 			<div class="col-sm-4">
 				<h4>Our Blog</h4>
 				
-					<p><a href="/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts.html" style="text-decoration : none;">Welcome to Jekyll 2!</a><br/>
-						January 3, 2017
-					</p>
-				
-					<p><a href="/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts3.html" style="text-decoration : none;">Welcome to Jekyll 3!</a><br/>
-						January 3, 2017
-					</p>
-				
-					<p><a href="/jekyll/update/2017/01/03/Second-post-in-Jekyll-Posts4.html" style="text-decoration : none;">Welcome to Jekyll 4!</a><br/>
-						January 3, 2017
+					<p><a href="/technology/2017/07/01/Hope-or-Hype.html" style="text-decoration : none;">Hope or Hype?</a><br/>
+						July 1, 2017
 					</p>
 				
 			</div><!-- /col-lg-4 -->
 
 			<div class="col-sm-4">
 				<h4>About Expetek</h4>
-				<p>We deliver our service and products at fastest pace, help our customers be more competitive in their market.<br/>We co-operate with our customer to optimize their production system to achieve next level of production excellence.</p>
+				<p>“Our aim is deliver our products/services at fast pace to help customers achieve business goals. We work closely with customer to optimize production system achieve next level of production excellence.”</p>
 			</div><!-- /col-lg-4 -->
 
 		</div>
 		<div class="row centered">
 			<div class="col-sm-3">
     	</div>
-    	<div class="col-sm-2">
-      	<p><a href="#">Twitter</a></p>
+    	<div class="col-sm-3">
+      	<p><a href="https://twitter.com/expetekvn">Twitter</a></p>
     	</div>
-    	<div class="col-sm-2">
-				<p><a href="#">Facebook</a></p>
-
-    	</div>
-    	<div class="col-sm-2">
-				<p><a href="#">Instagram</a></p>
+    	<div class="col-sm-3">
+				<p><a href="https://www.facebook.com/expetek/">Facebook</a></p>
     	</div>
 			<div class="col-sm-3">
     	</div>
