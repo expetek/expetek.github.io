@@ -8,7 +8,7 @@ layout: default
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h4><a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration : none; color : #000;">{{ post.title }}</a></h4>
+					<h2><a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration : none; color : #000;">{{ post.title }}</a></h2>
 					<p><bd>{{ post.author }} - {{ post.date | date: "%B %-d, %Y" }}</bd></p>
 					<p></p>
                     <p>{% if post.img %}<img src="{{ post.img }}">{% endif %}</p>
